@@ -1,0 +1,66 @@
+# This is a sample YAML file to check the POSTMAN wenserver
+# It demonstrates various data structures and syntax.
+
+# A simple key-value pair (string)
+application_name: MyWebApp
+
+# An integer value
+version: 1.0
+
+# A boolean value
+debug_mode: true
+
+# A list (sequence) of strings
+features:
+  - User Authentication
+  - Data Persistence
+  - API Integration
+
+# A dictionary (mapping)
+database:
+  type: PostgreSQL
+  host: localhost
+  port: 5432
+  username: admin
+  password: secure_password
+
+# A list of dictionaries
+users:
+  - id: 1
+    name: Alice
+    email: alice@example.com
+  - id: 2
+    name: Bob
+    email: bob@example.com
+    roles:
+      - admin
+      - editor
+
+# Multiline string using the literal style (preserves newlines and indentation)
+welcome_message: |
+  Welcome to MyWebApp!
+  This application helps you manage your data.
+  Enjoy your experience.
+
+# Multiline string using the folded style (folds newlines into spaces, unless indented)
+about_text: >
+  MyWebApp is a robust and scalable application
+  designed to streamline your workflow.
+  It is built with modern technologies.
+
+# Anchors and aliases for reusability
+default_settings: &default_config
+  log_level: INFO
+  timeout_seconds: 30
+
+production_environment:
+  <<: *default_config # Merges default_config here
+  log_level: WARNING
+  database:
+    host: prod.database.com
+
+development_environment:
+  <<: *default_config # Merges default_config here
+  log_level: DEBUG
+  database:
+    host: dev.database.com
