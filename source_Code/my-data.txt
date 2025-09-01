@@ -1,0 +1,33 @@
+niroop
+========
+SSN
+State id
+Local proof
+Us Slang
+
+no passport to give
+
+dyce, linked in
+
+id proof, ssn last4 digits
+in 2 weeks update linked and resume
+
+=============
+my friend had recently joined a company and his environment setup is like from his laptop he enters aws-profile apply-test (where apply is module and test is environment) and updadtes aws eks config along with region andapply-test and then runs kubectl config current-context gives the current one and executes kubectl get ns and the get pods could you explain me about this in details
+
+git clone git@github.com:phidayath9/docker-ver.git
+ git remote add upstream https://github.com/aafiaanjumpatnam/docker-ver.git
+PS C:\Users\hiday\OneDrive\Documents\workspace-us\areef-morning\docker-ver> git remote -v
+origin  git@github.com:phidayath9/docker-ver.git (fetch)
+origin  git@github.com:phidayath9/docker-ver.git (push)
+upstream        https://github.com/aafiaanjumpatnam/docker-ver.git (fetch)
+upstream        https://github.com/aafiaanjumpatnam/docker-ver.git (push)
+
+
+------------------------
+
+PS C:\Users\hiday\OneDrive\Documents\workspace-us\areef-morning\docker-ver> git remote -v
+origin  git@github.com:phidayath9/docker-ver.git (fetch)
+origin  git@github.com:phidayath9/docker-ver.git (push)
+upstream        https://github.com/aafiaanjumpatnam/docker-ver.git (fetch)
+upstream        https://github.com/aafiaanjumpatnam/docker-ver.git (push)
